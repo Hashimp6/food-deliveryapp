@@ -1,0 +1,17 @@
+.app-download p{
+    font-size: 3vw;
+    text-align: center;
+    padding: 80px ;
+}
+
+.app-image
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.app-download
+{
+    padding: 5vw 0;
+}

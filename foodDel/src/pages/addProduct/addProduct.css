@@ -1,0 +1,27 @@
+.delivery-details{
+    display: grid;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    justify-content: center;
+}
+.delivery-details h2
+{ padding: 35px;
+    font-size: 2.5vw;
+
+}
+.delivery-details input{
+    height: 35px;
+    width: 35vw;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 199, 199);
+}
+.delivery-details button{
+    color: white;
+    background-color: tomato;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 199, 199);
+    margin-bottom: 100px;
+    margin-top: 25px;
+}

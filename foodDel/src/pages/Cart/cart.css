@@ -1,0 +1,39 @@
+.cart{
+    margin-top: 100px;
+}
+.cart-title
+{
+ display: grid;
+ grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+ align-items: center;
+ padding-bottom: 30px;
+}
+
+.cart-title img{
+    width: 75px;
+}
+.cart-title .cross{
+    cursor: pointer;
+}
+.cart hr{
+    margin: 40px;
+}
+.cart-total button
+{
+    border: 1px solid rgb(183, 183, 183);
+    color: white;
+    background-color: tomato;
+    padding: 8px;
+    border-radius: 6px;
+}
+.cart-total
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10vw;
+}
+.total-items{
+    display: flex;
+    justify-content: space-between;
+}
